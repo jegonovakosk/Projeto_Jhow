@@ -1,0 +1,18 @@
+.missao{
+    border: 1px solid #DDD;
+    border-radius: 5px;
+    
+}
+.texto {
+    text-align: center;
+    padding: 10px;
+}
+h5{
+    color: gray;
+}
+p{
+    font-size: 16px;
+    font-family: sans-serif;
+    padding: 15px;
+    text-align: justify;
+}

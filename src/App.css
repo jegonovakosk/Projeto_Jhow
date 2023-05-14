@@ -1,0 +1,36 @@
+.hgt {
+  height: 100vh;
+}
+
+.red{
+  background: red;
+}
+
+.blue {
+  background: blue;
+}
+
+.green{
+  background: green;
+}
+
+.header{
+  position: fixed;
+}
+
+.carousel{
+  margin-top: 80px !important;
+}
+
+
+.carousel-dark .carousel-indicators [data-bs-target] {
+  border-radius: 50% !important;
+    height: 10px;
+    width: 10px;
+    border: 2px solid brown;
+    background: #00000052;
+}
+
+.vitrine{
+  justify-content: space-between !important;
+}
