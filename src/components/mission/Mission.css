@@ -1,11 +1,11 @@
 .missao{
-    border: 1px solid #DDD;
+    
     border-radius: 5px;
     
 }
 .texto {
     text-align: center;
-    padding: 10px;
+    padding: 20px;
 }
 h5{
     color: gray;

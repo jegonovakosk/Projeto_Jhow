@@ -1,7 +1,7 @@
 import React from "react";
 
-import Cavalos from "../../image/criacao-de-cavalos-artigos-cursos-uov.jpg";
-import Cavalos2 from "../../image/horse-1804425_640.jpg";
+import Cavalos from "../../image/IMG-8534.JPG";
+import Cavalos2 from "../../image/IMG-8536.JPG";
 
 const Carousel = () => {
     return (

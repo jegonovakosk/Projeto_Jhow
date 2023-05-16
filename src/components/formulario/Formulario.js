@@ -7,15 +7,15 @@ const Formulario = () => {
             <Form>
                 <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                     <Form.Label>Nome completo</Form.Label>
-                    <Form.Control type="text" placeholder="Nome completo" />
+                    <Form.Control type="text"/>
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                     <Form.Label>Telefone</Form.Label>
-                    <Form.Control type="phone" placeholder="Telefone: (xx)xxxxx-xxxx" />
+                    <Form.Control type="phone" />
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                     <Form.Label>e-Mail</Form.Label>
-                    <Form.Control type="email" placeholder="name@example.com" />
+                    <Form.Control type="email"/>
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
                     <Form.Label>Descreva sua soliticacao</Form.Label>

@@ -1,8 +1,9 @@
 footer{
-    background-color: #795014;
+    background-color: gray;
     height: 200px;
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
+    color: silver;
 }

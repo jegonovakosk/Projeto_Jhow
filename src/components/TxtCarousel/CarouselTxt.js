@@ -10,19 +10,19 @@ const CarouselTxt = () => {
         <>
             <Container className="d-flex txt-carousel">
                 <Row >
-                    <Carousel className="card" slide={false} interval={2000}>
+                    <Carousel className="card" slide={false} interval={5000}>
                         <Carousel.Item>
-                            <h3>First slide label</h3>
-                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                            <h3><b>Titulo Testemunho 1.</b></h3>
+                            <p>Excelente trabalho! Você claramente colocou muita dedicação e esforço em completar essa tarefa de forma tão precisa e eficiente. Você claramente colocou muita dedicação.</p>
                         </Carousel.Item>
                         <Carousel.Item>
-                            <h3>Second slide label</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <h3><b>Titulo Testemunho 2.</b></h3>
+                            <p>Parabéns pelo seu excelente desempenho neste projeto. Sua habilidade em gerenciar as tarefas e garantir que tudo foi concluído dentro do prazo é verdadeiramente impressionante.</p>
                         </Carousel.Item>
                         <Carousel.Item>
-                            <h3>Third slide label</h3>
+                            <h3><b>Titulo Testemunho 3.</b></h3>
                             <p>
-                                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                            Estou muito satisfeito com o resultado final do seu trabalho. Você mostrou uma grande atenção aos detalhes e demonstrou habilidades excepcionais em sua execução. Obrigado por um trabalho incrível!
                             </p>
                         </Carousel.Item>
                     </Carousel>

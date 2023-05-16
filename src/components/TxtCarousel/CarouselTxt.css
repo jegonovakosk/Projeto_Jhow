@@ -5,8 +5,23 @@
 }
 
 .card {
-    border: 1px solid #ddd;
+    font-family: sans-serif;
+    padding: 15px;
+    text-align: justify;
     padding: 20px;
-    max-width: 700px;
-    margin-top: 50px !important;
+    margin-top: 30px !important;
+    border: #2196f3 solid 1px;
+    
+}
+.txt-carousel .card{
+    justify-content: center;
+    height: 200px !important;
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: #1d99ff;
+    color: white;
+}
+
+.txt-carousel .card h3{
+    color: white;
 }

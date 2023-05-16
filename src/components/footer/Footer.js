@@ -6,6 +6,9 @@ const Footer = () => {
         <div>
             <footer className="mt-5">
                 <a>Text WW</a>
+                <a>Text WW</a>
+                <a>Text WW</a>
+                <a>Text WW</a>
             </footer>
         </div>
     )
