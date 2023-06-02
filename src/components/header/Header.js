@@ -1,11 +1,14 @@
 import React from "react";
 import './Header.css'
+import logo from '../../image/Logo.png'
+import logoWhite from '../../image/Logo White.png'
 
 const Header = () => {
   return (
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-    <a class="navbar-brand col-6" href="#" id="textNavbar">Logo</a>
+  
+    <a class="navbar-brand col-4" href="#" id="textNavbar"><img src={logoWhite}></img></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>

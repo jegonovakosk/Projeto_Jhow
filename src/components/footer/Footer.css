@@ -1,9 +1,10 @@
 footer{
     background-color: gray;
-    height: 200px;
+    height: 150px;
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
+    flex-direction: column;
     color: silver;
-}
+} 

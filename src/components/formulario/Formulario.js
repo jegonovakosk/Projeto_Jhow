@@ -14,7 +14,7 @@ const Formulario = () => {
                     <Form.Control type="phone" />
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-                    <Form.Label>e-Mail</Form.Label>
+                    <Form.Label>E-mail</Form.Label>
                     <Form.Control type="email"/>
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">

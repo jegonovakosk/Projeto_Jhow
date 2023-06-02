@@ -1,0 +1,7 @@
+.botao{
+    position: fixed;
+    top: 90vh;
+    left: 190vh;
+    transition-delay: 10s;
+    transition-property: margin-right;
+}
