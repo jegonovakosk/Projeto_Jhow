@@ -1,5 +1,5 @@
 .navbar{
-    background: gray    !important;
+    background: #c8ab84    !important;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,7 +13,10 @@
 
 #textNavbar{
     color: white;
-    padding-left: 15px;
+    padding-left: 5px;
+}
+#textNavbar:hover{
+    color: gray;
 }
 
 #textNavbar img{

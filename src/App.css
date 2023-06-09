@@ -39,3 +39,11 @@ h3{
   font-size: 24px;
   text-align: center;
 }
+h2{
+  color: black;
+  font-size: 24px;
+  font-family: michroma;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  border-bottom: silver solid 1px;
+}

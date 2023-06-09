@@ -1,10 +1,11 @@
 import React from "react";
 
 import img from "../../image/IMG-8536.JPG"
+import "./Card.css"
 
 const Card = ({ id }) => {
   const imagens = [
-    
+
   ]
   const obj = [
     {
@@ -46,9 +47,14 @@ const Card = ({ id }) => {
   ]
   return (
     <div id={id}>
+
       <div className="row m-1 vitrine">
+        <div className="service">
+        <h2>Seviços</h2>
+        </div>
         {obj.map((itens, i) => {
           return (
+
             <div className="card col-md-3 col-sm-12 col-xs-12 mt-2 m-3" key={i} >
               <img src={itens.img} className="card-img-top" alt="..." />
               <div classNameName="card-body">

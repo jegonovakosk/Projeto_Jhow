@@ -1,3 +1,6 @@
 .carousel-item{
-    transition: 0.8s ease-in-out;
+    transition: 1.6s ease-in-out;
+}
+#carouselExampleIndicators{
+    margin-top: -10px !important;
 }

@@ -8,7 +8,7 @@ const Header = () => {
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
   
-    <a class="navbar-brand col-4" href="#" id="textNavbar"><img src={logoWhite}></img></a>
+    <a class="navbar-brand col-5" href="#" id="textNavbar"><img src={logoWhite}></img></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -22,10 +22,10 @@ const Header = () => {
           <a class="nav-link active" aria-current="page" href="#teste2" id="textNavbar">Missão</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#teste2" id="textNavbar">Valores</a>
+          <a class="nav-link active" aria-current="page" href="#teste2" id="textNavbar">Visão</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#teste3" id="textNavbar">Projetos</a>
+          <a class="nav-link active" aria-current="page" href="#teste3" id="textNavbar">Serviços</a>
         </li>
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#teste4" id="textNavbar">Contato</a>

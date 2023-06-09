@@ -6,9 +6,7 @@
 }
 .img-info{
     min-height: 400px;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
+    padding-top: 10%;
 }
 
 section {
@@ -16,7 +14,3 @@ section {
     padding: 10px;
 }
 
-.txt-description{
-    font-size: 18px;
-    padding: 0 40px;
-}
