@@ -50,7 +50,7 @@ const Card = ({ id }) => {
 
       <div className="row m-1 vitrine">
         <div className="service">
-        <h2>Seviços</h2>
+        <h2><b>Seviços</b></h2>
         </div>
         {obj.map((itens, i) => {
           return (

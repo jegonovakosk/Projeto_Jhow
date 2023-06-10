@@ -6,7 +6,7 @@ const Mission = ({ id }) => {
         <div id={id} className='container missao mt-5'>
             <div className="row">
                 <div className="col-md-6 col-xs-12 col-sm-12 texto">
-                    <h2><b>Missao</b></h2>
+                    <h2><b>Missão</b></h2>
                     <p> Saúde pelos Cascos
                         Temos como missão primordial proporcionar aos cavalos saúde, bem-estar e equilíbrio por meio de um processo de ferrageamento personalizado, embasado na compreensão profunda da conexão íntima entre os cascos, a conformação corporal, performance e as características físicas e mentais de cada animal.
                         Acreditamos que a moldabilidade do casco é uma possibilidade inovadora e única para influenciar positivamente a saúde dos cavalos, levando em consideração não somente o aspecto físico, mas também a emoção, o equilíbrio, a força e a performance de um equino.

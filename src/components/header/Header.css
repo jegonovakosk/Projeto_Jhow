@@ -1,5 +1,5 @@
 .navbar{
-    background: #c8ab84    !important;
+    background: rgb(106, 117, 100)    !important;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,7 +16,7 @@
     padding-left: 5px;
 }
 #textNavbar:hover{
-    color: gray;
+    color: rgb(231, 216, 209);
 }
 
 #textNavbar img{

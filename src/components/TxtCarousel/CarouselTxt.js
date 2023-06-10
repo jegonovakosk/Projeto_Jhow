@@ -9,7 +9,7 @@ const CarouselTxt = () => {
     return (
         <>
         <div className="service">
-            <h2>Testemunhos</h2>
+            <h2><b>Testemunhos</b></h2>
         </div>
             <Container className="d-flex txt-carousel">
                 <Row >

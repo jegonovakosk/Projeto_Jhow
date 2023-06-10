@@ -11,14 +11,13 @@
     padding: 20px;
     margin-top: 30px !important;
     border: white solid 1px;
-    
 }
 .txt-carousel .card{
     justify-content: center;
     height: 200px !important;
     padding-left: 150px;
     padding-right: 150px;
-    background-color: #c8ab84;
+    background-color: #6A7564 ;
     color:  white;
 }
 
