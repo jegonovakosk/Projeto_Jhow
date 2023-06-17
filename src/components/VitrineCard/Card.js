@@ -10,40 +10,56 @@ const Card = ({ id }) => {
   const obj = [
     {
       img: img,
-      txt: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'
+      txt: 'EYE CHECK BALANCE PRESENCIAL'
     },
     {
       img: img,
-      txt: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'
+      txt: 'EYE CHECK BALANCE VIRTUAL'
     },
     {
       img: img,
-      txt: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'
+      txt: 'AVALIAÇÃO DO EQUILÍBRIO '
     },
     {
       img: img,
-      txt: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'
+      txt: 'PROGRAMA E ASSESSORIA A PROPRIETÁRIOS -PRESENCIAL'
     },
     {
       img: img,
-      txt: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'
+      txt: 'PROGRAMA E ASSESSORIA A PROPRIETÁRIOS - À DISTÂNCIA'
     },
     {
       img: img,
-      txt: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'
+      txt: 'ASSESSORIA A EQUIPES, FEDERAÇÕES PRÁTICAS '
     },
     {
       img: img,
-      txt: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'
+      txt: 'ASSESSORIA A INVESTIDORES '
     },
     {
       img: img,
-      txt: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'
+      txt: 'FERRAGEAMENTO PRESENCIAL - ANÁLISE, DIAGNÓSTICO, CONDUÇÃO TÉCNICA E EXECUTIVA DO FERRAGEAMENTO'
     },
     {
       img: img,
-      txt: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'
+      txt: 'TELE FERRAGEAMENTO - ANÁLISE PRÉVIA, INTREVISTA, DIAGNÓSTICO, CONDUÇÃO TÉCNICA E EXECUTIVA DO FERRAGEAMENTO'
     },
+    {
+      img: img,
+      txt: 'TREINAMENTO, PALESTRAS E CURSOS'
+    },
+    {
+      img: img,
+      txt: 'AVALIAÇÃO DE RISCO PRÉ COMPRA CONFORMACIONAL'
+    },
+    {
+      img: img,
+      txt: 'SEGUNDA OPINIÃO'
+    },
+    {
+      img: img,
+      txt: 'RESGATE'
+    }
   ]
   return (
     <div id={id}>
