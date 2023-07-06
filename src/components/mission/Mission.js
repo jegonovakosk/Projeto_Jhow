@@ -3,12 +3,13 @@ import "./Mission.css";
 
 const Mission = ({ id }) => {
     return (
-        <div id={id} className='container missao mt-5'>
+        <div id={id} className='container missao'>
             <div className="row">
                 <div className="col-md-12 col-xs-12 col-sm-12 texto">
                     <h2><b>Missão</b></h2>
                     <p>
-                        Temos como missão primordial proporcionar aos cavalos saúde, bem-estar e equilíbrio por meio de um processo de ferrageamento personalizado, embasado na compreensão profunda e da intima conexão entre os cascos, a conformação corporal, performance e as características físicas e emocionais de seu atleta equestre.
+                        <br/>
+                           Temos como missão primordial proporcionar aos cavalos saúde, bem-estar e equilíbrio por meio de um processo de ferrageamento personalizado, embasado na compreensão profunda e da intima conexão entre os cascos, a conformação corporal, performance e as características físicas e emocionais de seu atleta equestre.
                         <br />Acreditamos que a maleabilidade do casco é uma possibilidade inovadora e única para influenciar positivamente na saúde dos cavalos.
                         <br />Fundamentados na compreensão da capacidade de adaptação e maleabilidade dos cascos, temos o compromisso de mensalmente corrigi-los e moldá-los tridimensionalmente em seu melhor desenho de vetores.
                         <br />A recorrência mensal de crescimento dos cascos proporciona e é oportunidade especial para agir no equilíbrio e na saúde dos cavalos.

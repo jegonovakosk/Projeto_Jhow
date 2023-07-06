@@ -43,38 +43,23 @@ const Card = ({ id }) => {
     {
       img: img,
       txt: 'TELE FERRAGEAMENTO - ANÁLISE PRÉVIA, INTREVISTA, DIAGNÓSTICO, CONDUÇÃO TÉCNICA E EXECUTIVA DO FERRAGEAMENTO'
-    },
-    {
-      img: img,
-      txt: 'TREINAMENTO, PALESTRAS E CURSOS'
-    },
-    {
-      img: img,
-      txt: 'AVALIAÇÃO DE RISCO PRÉ COMPRA CONFORMACIONAL'
-    },
-    {
-      img: img,
-      txt: 'SEGUNDA OPINIÃO'
-    },
-    {
-      img: img,
-      txt: 'RESGATE'
     }
+   
   ]
   return (
     <div id={id}>
 
       <div className="row m-1 vitrine">
         <div className="service">
-        <h2><b>Seviços</b></h2>
+        <h2><b>Serviços</b></h2>
         </div>
         {obj.map((itens, i) => {
           return (
 
-            <div className="card col-md-3 col-sm-12 col-xs-12 mt-2 m-3" key={i} >
+            <div className="card col-md-3 col-sm-12 col-xs-12 m-2 mb-5" key={i} >
               <img src={itens.img} className="card-img-top" alt="..." />
               <div classNameName="card-body">
-                <p className="card-text mt-2 mb-2">{itens.txt}</p>
+                <p className="card-text">{itens.txt}</p>
               </div>
             </div>
           )

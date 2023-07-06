@@ -1,14 +1,16 @@
-import React from "react";
+import React from "react"
 import "./Section.css"
+import Image from "../../image/montaria.JPG"
+import Image1 from "../../image/IMG-8536.JPG"
+import Image2 from "../../image/IMG-8536.JPG"
 
-import Image from "../../image/IMG-8536.JPG"
 const Section = ({ id }) => {
     return (
-        <section id={id} className="content mt-5">
-            <div className="row">
-                            <h2><b>Quem somos?</b></h2>
-                <div className="col-md-7 col-sm-6 col-xs-12">
-                    <div className="d-flex txt-info">
+        <section id={id} className="content col-md-12">
+            <div className="row m-1">
+                <h2><b>Quem somos?</b></h2>
+                <div className="col-md-7 col-sm-12 col-xs-12">
+                    <div className="txt-info">
                         <div className="txt-description" >
                             <br />
                             <p>
@@ -32,17 +34,15 @@ const Section = ({ id }) => {
                                 <br />   Ganhos de condução e performance são percebidos brevemente após nosso trabalho.
                                 <br />   Ativamos todos os sistemas biológicos que podemos via reorientação de vetores de força, a fim de garantir performance sem danos.
                                 <br />   Podemos ajudar você a melhorar a performance e a qualidade de vida do seu cavalo!
-
                             </p>
                         </div>
                     </div>
                 </div>
-                <div className="col-md-5 col-sm-12 col-xs-12">
+                <div className="col-md-4 col-sm-12 col-xs-12">
                     <div className="d-flex img-info">
                         <div >
-                            <img src={Image} alt='' width={`100%`} />
-                            <img src={Image} alt='' width={`100%`} />
-                            <img src={Image} alt='' width={`100%`} />
+                            <img src={Image1} alt='' width={450} />
+                            <img src={Image} alt='' width={450} />
                         </div>
                     </div>
                 </div>

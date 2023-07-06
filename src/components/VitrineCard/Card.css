@@ -1,8 +1,10 @@
 .service{
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .card-text {
-    font-size: 20px;
-    color: red;
+    font-size: 14px;
+    padding-top: 10px;
+    text-align: center;
+    color: blue;
 }

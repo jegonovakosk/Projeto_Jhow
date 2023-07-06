@@ -1,16 +1,17 @@
 .missao .row{
     display: flex;
-    border-radius: 5px;
 }
 
 .texto1{
     display: flex;
 }
 p{
-    font-size: 17px;
+    font-size: 14px;
+    word-spacing: 4px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    padding: 15px;
-    text-align: justify;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    text-align: initial;
 }
 h5{
     color: rgb(106, 117, 100);

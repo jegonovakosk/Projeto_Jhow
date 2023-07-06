@@ -3,7 +3,7 @@ import "./Formulario.css";
 
 const Formulario = () => {
     return (
-        <div className='form mt-5'>
+        <div className='form'>
             <div className="service">
                 <h2>Contato</h2>
             </div>
@@ -25,7 +25,7 @@ const Formulario = () => {
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
                     <Form.Label>Descreva sua soliticacao</Form.Label>
-                    <Form.Control as="textarea" rows={3} />
+                    <Form.Control as="textarea" rows={5} />
                 </Form.Group>
                 <button type="button" class="btn btn-success">Enviar</button>
             </Form>
