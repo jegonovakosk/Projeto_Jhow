@@ -1,11 +1,10 @@
 .navbar{
-    position: fixed;
+    
     background: rgb(106, 117, 100)    !important;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    max-width: 82.7%;
     min-height: 80px;
     margin: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;

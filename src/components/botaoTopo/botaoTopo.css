@@ -1,13 +1,13 @@
 .botao{
     position: fixed;
-    top: 85vh;
-    left: 180vh;
+    top: 90vh;
+    left: 190vh;
     
 }
 .seta{
     width: 50px;
     height: 50px;
-    opacity: 0.1;
+    opacity: 0.5;
 }
 
 .seta:hover{

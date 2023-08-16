@@ -8,32 +8,27 @@ import Formulario from './components/formulario/Formulario';
 import Header from './components/header/Header';
 import Mission from './components/mission/Mission';
 import Botao from './components/botaoTopo/botaoTopo';
+import Accordion from './components/accordion/accordion';
 
 function App() {
   return (
     <>
-      <div className='container'>
-        <span id={'teste0'}></span>
-        <Header />
+      <div className='container all'>
+        <div className='container'>
+          <span id={'teste0'}></span>
+          <Header />
+        </div>
+        <div className='container carousel'>
+          <Carousel />
+        </div>
+        <div className='container'>
+          <Accordion />
+        </div>
+        <div className='container'>
+          <Footer />
+        </div>
       </div>
-      <div className='container carousel'>
-        <Carousel />
-      </div>
-      <div className='container'>
-        <Botao />
-        <span id={'teste1'}></span>
-        <Section color={'red'} />
-        <span id={'teste2'}></span>
-        <Mission />
-        <CarouselTxt />
-        <span id={'teste3'}></span>
-        <Card />
-        <span id={'teste4'}></span>
-        <Formulario />
-      </div>
-      <div className='container'>
-        <Footer />
-      </div>
+      <Botao />
     </>
   );
 }

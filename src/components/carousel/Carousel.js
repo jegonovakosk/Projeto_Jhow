@@ -17,22 +17,22 @@ const Carousel = () => {
             </div>
             <div className="carousel-inner">
                 <div className="carousel-item active">
-                    <img src={Cavalos} className="d-block w-100" alt="..." height={550} />
+                    <img src={Cavalos} className="d-block w-100" alt="..." height={600} />
                 </div>
                 <div className="carousel-item">
-                    <img src={Cavalos2} className="d-block w-100" alt="..." height={550} />
+                    <img src={Cavalos2} className="d-block w-100" alt="..." height={600} />
                 </div>
                 <div className="carousel-item">
-                    <img src={Cavalos} className="d-block w-100" alt="..." height={550} />
+                    <img src={Cavalos} className="d-block w-100" alt="..." height={600} />
                 </div>
                 <div className="carousel-item ">
-                    <img src={Cavalos} className="d-block w-100" alt="..." height={550} />
+                    <img src={Cavalos} className="d-block w-100" alt="..." height={600} />
                 </div>
                 <div className="carousel-item">
-                    <img src={Cavalos2} className="d-block w-100" alt="..." height={550} />
+                    <img src={Cavalos2} className="d-block w-100" alt="..." height={600} />
                 </div>
                 <div className="carousel-item">
-                    <img src={Cavalos} className="d-block w-100" alt="..." height={550} />
+                    <img src={Cavalos} className="d-block w-100" alt="..." height={600} />
                 </div>
             </div>
             <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -44,6 +44,8 @@ const Carousel = () => {
                 <span className="visually-hidden">Next</span>
             </button>
         </div>
+        
+        
     )
 }
 

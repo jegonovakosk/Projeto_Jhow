@@ -1,0 +1,22 @@
+.accordion {
+    max-width: 100%;
+    border-radius: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.accordion h2{
+    border-radius: none !important;
+    padding: 0;
+   
+}
+.accordion-header{
+}
+.accordion-item{
+    border: solid 1px black;
+    
+}
+.accordion button{
+    background-color: rgb(106, 117, 100);
+
+}
