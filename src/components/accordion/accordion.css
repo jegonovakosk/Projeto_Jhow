@@ -1,6 +1,5 @@
 .accordion {
     max-width: 100%;
-    border-radius: none;
     display: flex;
     flex-direction: column;
 }
@@ -10,13 +9,19 @@
     padding: 0;
    
 }
-.accordion-header{
-}
-.accordion-item{
-    border: solid 1px black;
-    
-}
 .accordion button{
-    background-color: rgb(106, 117, 100);
+    font-family: monospace;
+    font-size: 22px;
+    border-radius: none;
+    margin: 10px;
+    width: 100%;
+}
 
+.accordion button:hover{
+    background-color: aqua;
+}
+p{
+    font-size: 16px;
+    color: black;
+    font-family: monospace;
 }
