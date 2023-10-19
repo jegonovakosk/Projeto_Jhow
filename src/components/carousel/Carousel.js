@@ -1,4 +1,5 @@
 import React from "react";
+import './Carousel.css';
 
 import Cavalos from "../../image/IMG-8534.JPG";
 import Cavalos2 from "../../image/IMG-8536.JPG";
@@ -43,6 +44,8 @@ const Carousel = () => {
                 <span className="visually-hidden">Next</span>
             </button>
         </div>
+        
+        
     )
 }
 

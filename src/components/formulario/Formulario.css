@@ -1,6 +1,18 @@
 .form{
-  
-    padding: 30px;
-    color: black;
-    font-size: 21px;
+    padding: 5px;
+    color: rgb(106, 117, 100);
+    font-size: 16px;
 }
+.service{
+    padding: 5px;
+}
+
+.btn{
+    background-color: rgb(106, 117, 100, 0.5);
+    border: none;
+}
+.btn:hover{
+    background-color: rgb(106, 117, 100, 1);
+    border: none;
+}
+

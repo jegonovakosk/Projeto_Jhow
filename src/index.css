@@ -1,8 +1,7 @@
 body {
   margin: 0;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: sans-serif;
+  background-color: rgb(233, 219, 205, 0.3);
 }
 
 code {

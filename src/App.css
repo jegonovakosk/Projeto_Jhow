@@ -14,14 +14,16 @@
   background: green;
 }
 
-.header{
-  position: fixed;
-}
 
 .carousel{
-  margin-top: 30px !important;
+  margin-top: -10px !important;
+  padding-bottom: 10px;
 }
 
+.all{
+  height: 230vh;
+ 
+}
 
 .carousel-dark .carousel-indicators [data-bs-target] {
   border-radius: 50% !important;
@@ -38,4 +40,14 @@
 h3{
   font-size: 24px;
   text-align: center;
+}
+
+h2{
+  padding-left: 15px;
+  color: #6A7564 ;
+  font-size: 24px;
+  font-family: michroma;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  border-bottom: #6A7564  solid 1px;
 }

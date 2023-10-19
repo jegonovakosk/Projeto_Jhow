@@ -1,18 +1,18 @@
-.missao{
-    
-    border-radius: 5px;
-    
+.missao .row{
+    display: flex;
 }
-.texto {
-    text-align: center;
-    padding: 20px;
-}
-h5{
-    color: gray;
+
+.texto1{
+    display: flex;
 }
 p{
-    font-size: 16px;
-    font-family: sans-serif;
-    padding: 15px;
-    text-align: justify;
+    font-size: 14px;
+    word-spacing: 4px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    text-align: initial;
+}
+h5{
+    color: rgb(106, 117, 100);
 }

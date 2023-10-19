@@ -6,22 +6,27 @@
 
 .card {
     font-family: sans-serif;
-    padding: 15px;
+    max-width: 99%;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
     text-align: justify;
-    padding: 20px;
-    margin-top: 30px !important;
-    border: #2196f3 solid 1px;
-    
+    margin-top: 10px !important;
+    border: rgb(106, 117, 100) solid 1px;
+    box-shadow: gray 0.5px 0.5px 10px;
+    z-index: 0;
 }
 .txt-carousel .card{
     justify-content: center;
-    height: 200px !important;
+    height: 150px !important;
     padding-left: 150px;
     padding-right: 150px;
-    background-color: #1d99ff;
-    color: white;
+    background-color: white ;
+    color:  black;
 }
 
 .txt-carousel .card h3{
-    color: white;
+    color: rgb(106, 117, 100);
 }
+

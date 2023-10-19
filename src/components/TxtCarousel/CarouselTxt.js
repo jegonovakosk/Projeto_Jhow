@@ -8,6 +8,9 @@ import Row from 'react-bootstrap/Row';
 const CarouselTxt = () => {
     return (
         <>
+        <div className="service m-1">
+            <h2><b>Testemunhos</b></h2>
+        </div>
             <Container className="d-flex txt-carousel">
                 <Row >
                     <Carousel className="card" slide={false} interval={5000}>
