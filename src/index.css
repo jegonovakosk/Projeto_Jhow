@@ -1,10 +1,4 @@
 body {
   margin: 0;
-  font-family: sans-serif;
-  background-color: rgb(233, 219, 205, 0.3);
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'Courier New', Courier, monospace;
 }

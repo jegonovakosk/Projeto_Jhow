@@ -13,18 +13,21 @@ import Accordion from './components/accordion/accordion';
 function App() {
   return (
     <>
-      <div className='container all'>
-        <div className='container'>
+      <div className='container-fluid'>
+        <div className='container-fluid'>
           <span id={'teste0'}></span>
           <Header />
         </div>
-        <div className='container carousel'>
+        <div className='container-fluid carousel'>
           <Carousel />
         </div>
-        <div className='container'>
+        <div className='container-fluid'>
+         
           <Accordion />
+          <CarouselTxt />
+          
         </div>
-        <div className='container'>
+        <div className='container-fluid'>
           <Footer />
         </div>
       </div>

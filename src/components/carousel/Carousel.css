@@ -9,7 +9,7 @@
 
 .carousel-control-prev{
     width: 100px;
-    max-height: 90%;
+    max-height: 100%;
     z-index: 0;
 }
 .carousel-control-next{
